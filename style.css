@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(126 117 117);
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw ;
+    padding: 2%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    img {
+        width: 50%;
+        height: auto;
+    }
+}
+    
+
+.link {
+    color: rgb(27, 76, 168);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2.5vw;
+    
+}
+
+
+.header_left {
+    
+}
+
+
+.header_right {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.horizontal_line {
+    width: 100%;
+    height: 2px;
+    background-color:  rgb(103, 67, 67);
+    
+}
+
+
+
+
+.project_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    
+    align-items: center;
+    margin : 3%;
+    margin-top: 0rem;
+    
+
+}
+
+
+.project {
+
+    padding: 1.5%;
+    height: fit-content;
+    width: 80%;
+    height: 44vw;
+    
+}
+
+.description {
+    padding-right: 2%;
+    text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .project_container {
+        align-items: center;
+    }
+
+    .project {
+        width: 80%;
+        height: auto;
+        align-items: center;
+    }
+
+    .description {
+        padding-right: 50%;
+        
+    }
+}
+
+
+
+
+.intro {
+    padding:5% 15%;
+}
