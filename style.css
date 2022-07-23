@@ -2,7 +2,7 @@ body {
     background-color: rgb(126 117 117);
     color: rgb(255, 255, 255);
     font-size: 1.5vw ;
-    padding: 2%;
+    
 }
 
 img {
@@ -10,12 +10,6 @@ img {
     height: auto;
 }
 
-@media screen and (max-width: 1200px) {
-    img {
-        width: 50%;
-        height: auto;
-    }
-}
     
 
 .link {
@@ -63,7 +57,7 @@ img {
     align-items: center;
     margin : 3%;
     margin-top: 0rem;
-    
+    justify-content: center;
 
 }
 
@@ -82,15 +76,19 @@ img {
     text-align: left;
 }
 
-@media screen and (max-width: 1200px) {
+
+
+
+@media screen and (max-width: 1100px) {
 
     .project_container {
         align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     }
 
     .project {
         width: 80%;
-        height: auto;
+        height: 44vw;
         align-items: center;
     }
 
@@ -98,6 +96,43 @@ img {
         padding-right: 50%;
         
     }
+
+    img {
+        width: 50%;
+        height: auto;
+        }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .project_container {
+        align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .project {
+        width: 80%;
+        height: 44vw;
+        align-items: center;
+    }
+
+    .description {
+        padding-right: 50%;
+        
+    }
+
+    img {
+        width: 50%;
+        height: auto;
+        }
+
+
 }
 
 
