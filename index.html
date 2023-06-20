@@ -1,215 +1,291 @@
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <title>Portfolio</title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-
 </head>
 
-<body>
 
-    <div class="header">
+<body style="background-color: #e5b5b5;">
 
 
-        <div class="header_left">
-            Shailja Kant Tiwari
+
+    <!--navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shailja Kant Tiwari</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup navbarScroll">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#">Algorithms</a>
+                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--Projects-->
+
+    <div class="container-xxl ">
+
+
+        <div class="align-items-center pt-1 my-3  rounded shadow-sm" style="background-color: #ed9797;">
+            
+            <div  >
+                <h3 class="text-dark text-center blockquote"><strong>My Latest Projects</strong></h3>
+                <h5 class="text-white text-center blockquote-footer">These are the some of the projects I have done.</h5>
+            </div>
+          </div>
+
+
+
+        
+
+
+
+        <div class="container-xl  " >
+
+            <div class="row my-5 justify-content-around">
+                <div class="col-md-5  col-sm-12 " >
+
+                    <div class="card" style="background-color: #e2a5a5;">
+                        <img src="images/titanic_resized_.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body" >
+                            <h5 class="card-title">
+                                <h4>Titanic - Machine Learning from Disaster</h4>
+                            </h5>
+                            <p class="card-text">
+                                This was my first project in machine learning. I used the titanic dataset to train a
+                                model
+                                to predict the survival of a passenger.
+                                <br>I have performed the following tasks:
+                            </p>
+
+                            <li>
+                                <a href="#">Data Cleaning</a>
+                            </li>
+                            <li>
+                                <a href="#">EDA and Feature Engineering</a>
+                            </li>
+                            <li>
+                                <a href="#">Model Training</a>
+                            </li>
+                            <li>
+                                <a href="#">Final Visualization</a>
+                            </li>
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-md-5 col-sm-12 ">
+
+                    <div class="card" style="background-color: #e2a5a5;">
+                        <img src="images/house_resized_.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <h4>House Prices - Advanced Regression Techniques</h4>
+                            </h5>
+                            <p class="card-text">
+                                In this project I used the house prices dataset to train a model to predict the price of
+                                a house.
+                                <br>I have performed the following tasks:
+                            </p>
+
+                            <li>
+                                <a href="#" class="link">Data Cleaning</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link">EDA and Feature Engineering</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link">Preprocessing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link">Model Training</a>
+                            </li>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row my-5 justify-content-around">
+                <div class="col-md-5  col-sm-12 ">
+
+                    <div class="card" style="background-color: #e2a5a5;">
+                        <img src="images/amazon_resized_.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <h4>Amazon & Flipkart - Products' Price</h4>
+                            </h5>
+                            <p class="card-text">
+                                In this project I used the amazon and flipkart dataset to train a model to predict the
+                                price of a product.
+
+                                to predict the survival of a passenger.
+                                <br>I have performed the following tasks:
+                            </p>
+
+                            <li>
+                                <a href="#" class="link">Data Cleaning</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link">Feature Engineering</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link">Model Training</a>
+                            </li>
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-md-5 col-sm-12 ">
+
+                    <div class="card" style="background-color: #e2a5a5;">
+                        <img src="images/datacamp_resized_.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <h4>DataCamp Projects</h4>
+                            </h5>
+                            <p class="card-text">
+                                In this project I used the house prices dataset to train a model to predict the price of
+                                a house.
+                                <br>I have performed the following tasks:
+                            </p>
+
+                            <li>
+                                <a href="#" class="link">Investigating Netflix Movies and Guest Stars in The Office</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link">Predicting Credit Card Approvals</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link">Exploring the Evolution of Linux</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link">Model Training</a>
+                            </li>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
 
         </div>
 
-        <div class="header_right">
-
-            <a href="#" class="header_right_content link">Home</a>
-
-            <a href="#" class="header_right_content link">My Work</a>
-
-            <a href="#" class="header_right_content link">About</a>
-
-            <a href="#" class="header_right_content link">Contact</a>
 
 
-        </div>
     </div>
 
-    <hr class="horizontal_line">
 
 
 
+    <div class="container-xxl">
 
 
-
-    <div class="content">
-        <h2>
-            <center>Projects</center>
-        </h2>
-
-        <div class="project_container">
-
-
-
-            <div class='project'>
-
-                <div class="Project_image">
-                    <img src="data/titanic.jpg" alt="">
-                </div>
-                <div class="Project_text">
-                    <a class="link" href="#">
-                        <h4>Titanic - Machine Learning from Disaster</h4>
-                    </a>
-                    <p class="description">
-                        This was my first project in machine learning. I used the titanic dataset to train a model
-                        to predict the survival of a passenger.<br><br>
-                        I have performed the following tasks:
-
-                        <li>
-                            <a href="#" class="link">Data Cleaning</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">EDA and Feature Engineering</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">Model Training</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">Final Visualization</a>
-                        </li>
-
-
-                </div>
-
+        <div class="align-items-center pt-1 my-3  rounded shadow-md" style="background-color: #ed9797;">
+            
+            <div  >
+                <h3 class="text-dark text-center "><strong>Algorithms</strong></h3>
+                <h5 class="text-secondary text-center px-5">— <br>Machine Learning is more than an API call to sikit-learn, I Love the maths and theory as well as the
+                    implementation.</h5>
             </div>
+          </div>
 
-            <div class='project'>
-
-                <div class="Project_image">
-                    <img src="data/house.jpg" alt="">
-                </div>
-                <div class="Project_text">
-                    <a class="link" href="#">
-                        <h4>House Prices - Advanced Regression Techniques</h4>
-                    </a>
-                    <p class="description">
-                        This was my first project in machine learning. I used the titanic dataset to train a model
-                        to predict the survival of a passenger.<br><br>
-                        I have performed the following tasks:
-
-                        <li>
-                            <a href="#" class="link">Data Cleaning</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">EDA and Feature Engineering</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">Preprocessing</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">Model Training</a>
-                        </li>
+        <figure class="text-center p-5">
+            <blockquote class="blockquote">
+                <h3><strong>Algorithms</strong></h3>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                <h5>Machine Learning is more than an API call to sikit-learn, I Love the maths and theory as well as the
+                    implementation.</h5>
+            </figcaption>
+        </figure>
 
 
-                </div>
+        <div class="container-xl">
 
-            </div>
+            <div class="row my-5 justify-content-around">
+                <div class="col-md-5  col-sm-12 ">
 
+                    <div class="card" style="background-color: #e2a5a5;">
 
-            <div class='project'>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <h4>Logistic Regression</h4>
+                            </h5>
+                            <p class="card-text">
+                                Logistic Regression is a type of supervised learning model used for classification and
+                                regression.
+                                <br>I have performed the following tasks:
+                            </p>
 
-                <div class="Project_image">
-                    <img src="data/amazon.jpg" alt="">
-                </div>
-                <div class="Project_text">
-                    <a class="link" href="#">
-                        <h4>Predict the discounted Price of Amazon and Flipkart Products</h4>
-                    </a>
-                    <p class="description">
-                        This was my first project in machine learning. I used the titanic dataset to train a model
-                        to predict the survival of a passenger.<br><br>
-                        I have performed the following tasks:
+                            <li>
+                                <a href="#" class="link">Data Cleaning</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link">EDA and Feature Engineering</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link">Preprocessing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link">Model Training</a>
+                            </li>
 
-                        <li>
-                            <a href="#" class="link">Data Cleaning</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">Feature Engineering</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">Model Training</a>
-                        </li>
-
-
-
+                        </div>
+                    </div>
                 </div>
 
-            </div>
-
-            <div class='project'>
-
-                <div class="Project_image">
-                    <img src="data/datacamp.jpg" alt="">
-                </div>
-                <div class="Project_text">
-                    <a class="link" href="#">
-                        <h4>DataCamp Projects</h4>
-                    </a>
-                    <p class="description">
-                        Following are the some Real world Projects done on DataCamp.
-
-                        <li>
-                            <a href="#" class="link">Investigating Netflix Movies and Guest Stars in The Office</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">Predicting Credit Card Approvals</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">Exploring the Evolution of Linux</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">Model Training</a>
-                        </li>
-
-
-                </div>
-
-            </div>
-
-
-
-
-
-
-        </div>
-
-        <hr class="horizontal_line">
-
-
-        <div class="content">
-            <h2>
-                <center>Algorithms</center>
-            </h2>
-
-
-
-            <div class='project_container'>
-
-
-                <div class="Project_text">
-                    <a class="link" href="#">
-                        <h4>Linear Regression</h4>
-                    </a>
-                    <p class="description">
-                        I have written a Linear Regression algorithm from scratch.
+                <div class="col-md-5 col-sm-12 ">
+                    <div class="card" style="background-color: #e2a5a5;">
+                       
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <h4>Linear Regression</h4>
+                            </h5>
+                            <p class="card-text">
+                                Linear Regression is a type of supervised learning model used for solving Regression problems and
+                                I have written a Linear Regression algorithm from scratch.
                         for the optimization of the cost function used the gradient descent algorithm.
+                                <br>I have performed the following tasks:
+                            </p>
 
-
-
-                        <li>
+                            <li>
                             <a href="#" class="link">Cost Function</a>
                         </li>
                         <li>
@@ -219,70 +295,13 @@
                             <a href="#" class="link">Final Algorithm</a>
                         </li>
 
-
+                        </div>
+                    </div>
                 </div>
-
-                <div class="Project_text">
-                    <a class="link" href="#">
-                        <h4>Linear Regression</h4>
-                    </a>
-                    <p class="description">
-                        I have written a Linear Regression algorithm from scratch.
-                        for the optimization of the cost function used the gradient descent algorithm.
-
-
-
-                        <li>
-                            <a href="#" class="link">Cost Function</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">Gradient descent</a>
-                        </li>
-                        <li>
-                            <a href="#" class="link">Final Algorithm</a>
-                        </li>
-
-
-                </div>
-
             </div>
-
-
-
         </div>
 
 
-        <hr class="horizontal_line">
-
-
-        <div class="intro">
-
-            <div class="intro_center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eius dicta recusandae in, quae similique
-                enim
-                nostrum sapiente, a consequatur deleniti voluptatibus fugiat quas earum, tenetur accusantium illo beatae
-                dolores!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non beatae soluta enim unde? Itaque repellendus
-                veritatis adipisci ab alias obcaecati quaerat quae? Reiciendis labore possimus provident fugiat itaque
-                nihil
-                modi.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eius facere, vero pariatur beatae
-                voluptatum
-                suscipit nam aspernatur sequi, earum similique harum sit omnis optio tempore quaerat possimus. Laborum,
-                quos.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolor consequatur architecto modi amet
-                vitae
-                adipisci. Autem itaque quaerat veritatis nostrum neque nam inventore veniam voluptates, quas nulla.
-                Error,
-                amet!
-
-
-            </div>
-
-        </div>
-
-
-        <hr class="horizontal_line">
 
 
 
@@ -294,15 +313,24 @@
 
 
 
-        <div class="footer">
-
-        </div>
-
-        <hr class="horizontal_line">
 
 
 
 
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
 </body>
 
 </html>

@@ -1,0 +1,5 @@
+tensorflow-cpu
+gradio
+keras
+matplotlib
+numpy
